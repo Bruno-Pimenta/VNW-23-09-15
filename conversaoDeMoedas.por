@@ -4,7 +4,7 @@ programa {
   inclua biblioteca Matematica --> mat
   funcao inicio() {
     real valor = 0
-    escreva("Digite o valor:\n")
+    escreva("Digite o valor em Reais:\n")
     leia(valor)
     escreva("Valor em Baht tailandês.", baht(valor), "\n")
     escreva("Valor em Won sul-coreano.", won(valor), "\n")
